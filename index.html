@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine Invite 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts" id="hearts"></div>
+
+  <div class="card">
+
+    <!-- MINI GAME SECTION -->
+    <div id="gameSection">
+      <h1>Mini Game 💘</h1>
+      <p>Click 5 hearts to unlock the YES button!</p>
+      <h2 id="scoreText">Hearts Collected: 0 / 5</h2>
+      <div id="gameArea"></div>
+    </div>
+
+    <!-- QUESTION SECTION -->
+    <div id="questionSection" class="hidden">
+      <h1>Will you be my Valentine? 💖</h1>
+
+      <div class="buttons">
+        <button id="yesBtn">YES 💘</button>
+        <button id="noBtn">NO 💔</button>
+      </div>
+    </div>
+
+    <!-- RESULT SECTION -->
+    <div id="resultSection" class="hidden">
+      <h1>Yaaay! 💕</h1>
+      <p>I'm so happy you said YES! I prepared something special for you.</p>
+
+      <!-- NOW OPENS CAT PAGE -->
+      <a href="cat.html" target="_blank" class="invite-link">
+        Open Your Valentine Invitation 🌹
+      </a>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
